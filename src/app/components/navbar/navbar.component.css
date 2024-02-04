@@ -1,0 +1,29 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.nav{
+    background-color: rgba(0, 0, 0, 0.518);
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.welcome{
+    background-color: white;
+    height: 100%;
+    width: 100px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 25px;
+
+    
+}
+
+.nav-link{
+    margin-left: 35px;
+}

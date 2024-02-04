@@ -1,0 +1,47 @@
+div{
+    border: 0px solid white;
+}
+
+.content{
+    width: 90%;
+    height: 700px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.description{
+    width: 39%;
+    height: 200px;
+    padding: 30px;
+}
+
+.content img{
+    width: 55%;
+    margin:10px
+}
+
+h1{
+    font-size: 48px;
+    color: white;
+}
+
+p{
+    font-size: 30px;
+    color: rgb(219, 219, 219);
+}
+
+.img-gallary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-gallary img{
+    width: 70%;
+    margin: 60px;
+
+}
