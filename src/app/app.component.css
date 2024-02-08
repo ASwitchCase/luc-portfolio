@@ -38,3 +38,25 @@
     text-decoration: underline;
 }
 
+h1{
+    color: white;
+}
+.nav-m{
+    display: none;
+}
+
+@media only screen and (max-width: 400px) {
+    h1{
+        color: brown;
+    }
+    .nav-m{
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.518);
+        position: fixed;
+        top: 0;
+        z-index: 3;
+    }
+    .nav{
+        display: none;
+    }
+}

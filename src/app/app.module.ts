@@ -16,6 +16,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { Work2Component } from './components/work2/work2.component';
 import { Work3Component } from './components/work3/work3.component';
 import { Work4Component } from './components/work4/work4.component';
+import {MatMenuModule} from '@angular/material/menu';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,8 @@ import { Work4Component } from './components/work4/work4.component';
     MatButtonModule,
     MatIconModule,
     MatTabsModule,
-    MatGridListModule
+    MatGridListModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
