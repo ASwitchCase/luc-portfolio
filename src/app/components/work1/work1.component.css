@@ -49,5 +49,33 @@ p{
     width: 80%;
 }
 
+.content-m{
+    display: none;
+}
+
+@media only screen and (max-width: 400px) {
+ .content{
+    display: none;
+ }
+
+ .content-m{
+    display: block;
+    width: 90%;
+    height: fit-content;
+    padding: 15px;
+
+    margin-top: 200px;
+}
+img{
+    width: 390px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    
+}
+}
+
 
   

@@ -12,10 +12,27 @@
       <mat-icon>share</mat-icon>
     </button>
 </mat-toolbar>
+
+<mat-toolbar class="nav-m" color="primary">
+    <button [matMenuTriggerFor]="menu" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <span class="welcome">Welcome</span>
+    
+</mat-toolbar>
+
+<mat-menu #menu="matMenu">
+    <button (click)="scroll(home)" mat-menu-item>Home</button>
+    <button (click)="scroll(about)" mat-menu-item>About</button>
+    <button (click)="scroll(freedom)" mat-menu-item>Freedom</button>
+    <button (click)="scroll(summot)" mat-menu-item>Summot</button>
+    <button (click)="scroll(park)" mat-menu-item>Park</button>
+    <button (click)="scroll(art)" mat-menu-item>Art</button>
+</mat-menu>
+
 <div #home>
     <app-home></app-home>
 </div>
-
 <div #about>
     <app-about></app-about>
 </div>

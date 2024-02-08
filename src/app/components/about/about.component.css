@@ -32,3 +32,40 @@ p{
 img{
     height: 100%;
 }
+
+@media only screen and (max-width: 400px) {
+    
+    .content{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .description{
+        width: 60%;
+        height: 600px;
+        border-color: white;
+        border-left-style: solid;
+        padding: 50px;
+        background-color: rgb(19, 19, 19);
+    }
+
+    h1{
+        font-size: 30px;
+        border-color: white;
+        border-bottom-style: solid;
+        color: white;
+    }
+
+    p{
+        font-size: 20px;
+        color: rgb(219, 219, 219);
+    }
+
+    img{
+        display: none;
+    }
+}
