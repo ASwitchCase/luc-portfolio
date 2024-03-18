@@ -36,6 +36,12 @@ p{
 .content-m{
     display: none;
 }
+.img-gallary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 @media only screen and (max-width: 400px) {
     .content{
